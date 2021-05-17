@@ -24,10 +24,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AIWolfLib\AIWolfLib.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="..\LICENSE.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -35,6 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AIWolfLib" Version="2.1.0-beta" />
     <PackageReference Include="NLog" Version="4.7.2" />
   </ItemGroup>
 
