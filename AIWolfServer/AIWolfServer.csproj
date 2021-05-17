@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Description>The AIWolf Server library.</Description>
-    <Copyright>Copyright © 2017 Takashi OTSUKI</Copyright>
+    <Copyright> © 2017 OTSUKI Takashi</Copyright>
     <Company>AIWolfSharp</Company>
     <Authors>Takashi OTSUKI</Authors>
     <RootNamespace>AIWolf.Server</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>2.1.0</Version>
+    <Version>2.1.0-beta</Version>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <ApplicationIcon />
     <OutputType>Library</OutputType>
@@ -32,7 +32,7 @@
 
   <ItemGroup>
     <PackageReference Include="AIWolfLib" Version="2.1.0-beta" />
-    <PackageReference Include="NLog" Version="4.7.2" />
+    <PackageReference Include="NLog" Version="4.7.9" />
   </ItemGroup>
 
 </Project>
