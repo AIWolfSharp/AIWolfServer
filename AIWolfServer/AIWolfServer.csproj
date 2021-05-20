@@ -8,7 +8,7 @@
     <Authors>Takashi OTSUKI</Authors>
     <RootNamespace>AIWolf.Server</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>2.1.0-beta</Version>
+    <Version>2.2.0</Version>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <ApplicationIcon />
     <OutputType>Library</OutputType>
@@ -31,8 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AIWolfLib" Version="2.1.0-beta" />
-    <PackageReference Include="NLog" Version="4.7.9" />
+    <PackageReference Include="AIWolfLib" Version="2.1.0" />
+    <PackageReference Include="NLog" Version="4.7.10" />
   </ItemGroup>
 
 </Project>
